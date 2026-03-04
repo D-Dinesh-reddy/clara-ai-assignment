@@ -1,7 +1,50 @@
-Hello this is ABC Fire Protection company.
+Company: Ben's Electric Solutions
 
-We provide sprinkler repair and fire alarm services.
+Owner: Ben Penoyer
 
-Our office works 9 to 5 Monday to Friday.
+Location: Calgary, Alberta, Canada
 
-If there is a sprinkler leak it is considered an emergency.
+Business Overview:
+Ben Penoyer owns and operates Ben's Electric Solutions. He has been an electrician for about 30 years and has been running his own business for the last 8 years. The company focuses on electrical services for both residential and commercial customers.
+
+Team Structure:
+The company currently operates with multiple electricians and subcontractors. Ben has three company work vans on the road and plans to expand further. Each van typically has a journeyman electrician and sometimes an apprentice. In addition to the full-time employees, Ben occasionally works with subcontractors to handle overflow work during busy periods.
+
+Operations:
+Ben manages most of the office and administrative tasks himself. This includes answering customer calls, scheduling jobs, handling invoices, and coordinating field technicians. He also visits job sites to provide quotes and assess larger projects. Most of the technicians are out in the field handling service calls while Ben manages the operations and customer communication.
+
+Software and Tools:
+The company currently uses Jobber as its CRM and job management platform. Jobber helps track jobs, schedule technicians, and manage customer information. For accounting, Ben uses QuickBooks. Most invoices are generated through Jobber and then synced with QuickBooks.
+
+Services Offered:
+Ben's Electric Solutions provides a wide range of electrical services. These include residential electrical repairs, commercial electrical work, electrical troubleshooting, service calls, renovations, tenant improvements, custom home electrical installations, panel upgrades, EV charger installations, hot tub electrical hookups, and general electrical maintenance.
+
+Some services that the company previously experimented with, such as gemstone lighting installations, are no longer offered because they were not profitable or outside the company's main expertise.
+
+Customer Calls and Support:
+Most customer calls come in during business hours, but occasionally there are after-hours calls for urgent issues. Emergency calls are typically handled only for regular customers such as property managers or general contractors. For example, one property management company that operates gas stations sometimes calls Ben when fuel pump electrical systems fail and require immediate repairs.
+
+Business Challenges:
+Ben currently handles all incoming calls himself. He receives calls from customers, contractors, inspectors, field technicians, and sales representatives. This can become overwhelming, especially during busy periods. Managing calls, scheduling jobs, and handling administrative work all at the same time is challenging.
+
+AI Solution Discussion:
+During the conversation, the Clara AI team demonstrated an AI receptionist system that can answer incoming phone calls automatically. The AI system can answer multiple calls at the same time, understand customer requests, gather information such as name, phone number, and address, and schedule service appointments.
+
+The AI receptionist can also filter spam calls, summarize conversations, and send notifications to Ben through email, text message, or a dashboard. All call recordings and transcripts are stored in the system for review.
+
+Automation Features:
+The Clara AI platform includes multiple automation agents that help with business operations. These include an AI call answering agent, a dispatching agent for scheduling technicians, a reminder system for upcoming jobs, a review collection agent to gather customer feedback after jobs are completed, and a collections agent to follow up on overdue invoices.
+
+The system can also integrate with business software such as ServiceTitan, Housecall Pro, Service Fusion, and Jobber. Jobber integration is currently under development.
+
+Emergency Handling:
+The AI system can detect emergency situations during calls and immediately route those calls to Ben or another team member if needed. This ensures that urgent electrical problems receive immediate attention.
+
+Pricing and Trial:
+The Clara AI team offered a starter plan priced at $249 per month, which includes 500 minutes of call handling per month. Ben expressed interest in testing the system for a three-month trial period to see how it performs for his business.
+
+Next Steps:
+Ben agreed to move forward with the onboarding process. The next steps include signing a contract, scheduling an onboarding call with the Clara AI team, configuring the AI system for Ben's business workflows, and testing the system before deploying it live.
+
+Conclusion:
+Ben believes that the AI receptionist could help reduce his workload by answering incoming calls, filtering spam, and organizing customer information. If successful, the system could allow him to focus more on running and growing his electrical business rather than handling constant phone calls and administrative tasks.

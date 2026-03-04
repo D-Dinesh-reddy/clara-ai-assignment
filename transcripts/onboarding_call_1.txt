@@ -1,9 +1,80 @@
-This is the onboarding call for ABC Fire Protection.
+Onboarding Call Transcript
 
-Our business hours are Monday to Friday 8am to 6pm EST.
+Participants:
+Bharat (Clara AI Team)
+Pawan (Clara AI Solutions)
+Ben Penoyer (Owner, Ben's Electric Solutions)
 
-Emergency calls include sprinkler leaks and fire alarm triggers.
+Ben joined the onboarding call after completing the DocuSign agreement for the Clara AI service. The initial contract is for three months, and if Ben decides to continue after the trial period, the pricing will remain the same.
 
-After hours emergency calls should transfer directly to the dispatcher.
+Bharat introduced Pawan, who leads the Clara Answers solution. Pawan explained that he will be the dedicated point of contact responsible for configuring the AI receptionist according to Ben’s business workflow.
 
-Office address is 245 Main Street Dallas Texas.
+Pawan confirmed that Clara AI will help Ben automate incoming call handling using an AI agent. A base version of the AI agent has already been configured, and the goal of the onboarding call is to clarify a few business details so the system can be finalized and made available for testing.
+
+The Clara team explained that they will complete the configuration and provide Ben with a test phone number where the AI agent will be active. They will also share access to the Clara dashboard so Ben can review call summaries, transcripts, and analytics.
+
+Ben will test the system by calling the AI agent directly. After testing, another review call will be scheduled on Friday to finalize the configuration. If everything works correctly, the system can go live during the weekend.
+
+Call Handling Setup
+
+Pawan asked how incoming calls are currently handled. Ben explained that he currently handles all incoming business calls himself. Contractors and field staff already have direct contact numbers, so most of the incoming calls are from new customers requesting small electrical jobs or service calls.
+
+Ben confirmed that he currently uses one phone number that serves as both his personal and business phone number. However, he also has another phone line that he plans to use for personal communication once the system is fully configured.
+
+The Clara team explained that the business number will forward calls to Clara. If Ben declines a call or does not answer, the call can automatically be forwarded to the AI receptionist. Once Ben begins using a second personal number, Clara can act as the primary contact for business calls and transfer calls to Ben if necessary.
+
+Ben confirmed that he would like Clara to be able to transfer calls to him if a caller specifically asks to speak with him.
+
+Service Pricing Information
+
+The Clara team asked about Ben’s service call pricing so the AI agent can answer customer questions correctly.
+
+Ben explained that his company charges a $115 service call fee, which covers travel to the job site. After arriving, the company charges hourly rates in half-hour increments.
+
+Residential electrical work is billed at $98 per hour, or $49 per half hour. The service call fee combined with the first half hour of work typically results in a total starting cost of around $150.
+
+The Clara team asked whether the AI agent should automatically mention the service fee during every call. Ben said customers should know about the fee before booking, but it does not need to be mentioned in every conversation unless the customer asks.
+
+Pawan confirmed that the information will still be included in the system’s knowledge base so the AI agent can explain the pricing when customers request details.
+
+Notifications and Contact Information
+
+The Clara team asked for Ben’s preferred email address for receiving call notifications. Ben provided the email address:
+
+info@benselectricalsolutions.com
+
+They confirmed that the system will send notifications via email and SMS whenever the AI agent receives a call, captures a lead, or schedules a request.
+
+Ben asked whether the AI integration would interfere with his normal text messaging. The team confirmed that text messaging will continue to function normally and will not be affected by Clara.
+
+After Hours Behavior
+
+The team then discussed how calls should be handled outside normal business hours.
+
+Ben explained that he usually does not accept emergency calls after hours except for a few long-term clients. One of these clients is a property management company called GNM Pressure Washing.
+
+This company manages several commercial properties, including approximately 20 gas stations. Occasionally they call Ben for urgent electrical repairs at those locations.
+
+The Clara team proposed allowing calls from this company to bypass the AI system and be forwarded directly to Ben if necessary. Ben agreed with this approach.
+
+Business Hours
+
+The Clara team confirmed the company’s working hours. According to the company website, the business operates Monday through Friday from 8:00 AM to 4:30 PM.
+
+Ben mentioned that in practice the working hours are usually closer to 8:00 AM to 5:00 PM depending on the work schedule. The team decided to initially configure the system based on the website’s listed hours.
+
+Testing and Deployment Plan
+
+The Clara team explained the rollout process. After configuration is complete, Ben will receive the AI agent’s phone number and access to the dashboard. He will test the system by calling the agent and reviewing how it handles conversations.
+
+During testing, the AI system will not be connected to real customer calls. This allows Ben to experiment with the system safely before activating it.
+
+Once testing is complete, a short follow-up meeting will be scheduled on Friday to review the results and make any adjustments needed. The meeting is expected to last between 15 and 20 minutes.
+
+Ben confirmed that Friday at 2:00 PM works for him.
+
+If the testing goes well and no major adjustments are needed, Clara can be activated to begin answering real business calls over the weekend.
+
+The team also mentioned that during the early stages there may be some spam calls or filtering adjustments needed, but these can be improved over time as the system learns and the configuration is refined.
+
+The meeting concluded with the Clara team confirming that they will send the test agent details, dashboard access, and instructions for testing. Ben will begin testing calls before the Friday review meeting.

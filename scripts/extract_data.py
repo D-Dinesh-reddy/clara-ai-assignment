@@ -8,42 +8,91 @@ def extract_information(transcript_text):
     data = ACCOUNT_SCHEMA.copy()
 
     text = transcript_text.lower()
+    lines = transcript_text.split("\n")
 
-    # Extract company name (simple placeholder)
-    if "company" in text:
-        data["company_name"] = "Unknown Company"
+    # -----------------------------
+    # Extract Company Name
+    # -----------------------------
+    for line in lines:
+        if "company:" in line.lower():
+            data["company_name"] = line.split(":", 1)[1].strip()
 
-    # Services
-    if "sprinkler" in text:
-        data["services_supported"].append("sprinkler services")
+    # -----------------------------
+    # Extract Office Address / Location
+    # -----------------------------
+    for line in lines:
+        if "address:" in line.lower():
+            data["office_address"] = line.split(":", 1)[1].strip()
 
-    if "fire alarm" in text:
-        data["services_supported"].append("fire alarm systems")
+        if "location:" in line.lower():
+            data["office_address"] = line.split(":", 1)[1].strip()
 
-    if "hvac" in text:
-        data["services_supported"].append("HVAC service")
+    # -----------------------------
+    # Extract Business Hours
+    # -----------------------------
+    if "monday to friday" in text:
+        data["business_hours"]["days"] = ["Mon", "Tue", "Wed", "Thu", "Fri"]
 
-    # Emergency definitions
-    if "leak" in text:
-        data["emergency_definition"].append("sprinkler leak")
+    if "8:00" in text or "8am" in text:
+        data["business_hours"]["start"] = "08:00"
 
-    if "alarm triggered" in text:
-        data["emergency_definition"].append("fire alarm triggered")
+    if "4:30" in text:
+        data["business_hours"]["end"] = "16:30"
 
-    # Business hours detection (very simple rule)
-    if "9 to 5" in text:
-        data["business_hours"]["days"] = ["Mon","Tue","Wed","Thu","Fri"]
-        data["business_hours"]["start"] = "09:00"
+    if "5:00" in text:
         data["business_hours"]["end"] = "17:00"
 
-    # Missing info detection
-    if "address" not in text:
+    # -----------------------------
+    # Extract Services
+    # -----------------------------
+    services = []
+
+    if "electrical repair" in text:
+        services.append("electrical repairs")
+
+    if "commercial electrical" in text:
+        services.append("commercial electrical work")
+
+    if "troubleshooting" in text:
+        services.append("electrical troubleshooting")
+
+    if "ev charger" in text:
+        services.append("EV charger installation")
+
+    if "hot tub" in text:
+        services.append("hot tub electrical hookup")
+
+    if "panel upgrade" in text:
+        services.append("panel upgrades")
+
+    if "renovation" in text:
+        services.append("electrical renovation work")
+
+    data["services_supported"] = list(set(services))
+
+    # -----------------------------
+    # Extract Emergency Definitions
+    # -----------------------------
+    emergencies = []
+
+    if "gas station" in text:
+        emergencies.append("gas station electrical emergency")
+
+    if "urgent repair" in text:
+        emergencies.append("urgent electrical repair")
+
+    data["emergency_definition"] = emergencies
+
+    # -----------------------------
+    # Detect Missing Information
+    # -----------------------------
+    if data["office_address"] == "":
         data["questions_or_unknowns"].append("office_address missing")
 
-    if "business hours" not in text:
+    if data["business_hours"]["start"] == "" or data["business_hours"]["end"] == "":
         data["questions_or_unknowns"].append("business_hours missing")
 
-    data["notes"] = "Generated from demo transcript"
+    data["notes"] = "Generated from transcript"
 
     return data
 

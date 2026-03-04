@@ -1,25 +1,18 @@
 {
     "account_id": "account_001",
-    "company_name": "Unknown Company",
+    "company_name": "Ben's Electric Solutions",
     "business_hours": {
-        "days": [
-            "Mon",
-            "Tue",
-            "Wed",
-            "Thu",
-            "Fri"
-        ],
+        "days": [],
         "start": "08:00",
-        "end": "18:00",
+        "end": "17:00",
         "timezone": ""
     },
-    "office_address": "245 Main Street Dallas Texas",
+    "office_address": "Calgary, Alberta, Canada",
     "services_supported": [
-        "sprinkler services",
-        "fire alarm systems"
+        "electrical repairs"
     ],
     "emergency_definition": [
-        "sprinkler leak"
+        "gas station electrical emergency"
     ],
     "emergency_routing_rules": "",
     "non_emergency_routing_rules": "",
@@ -28,8 +21,7 @@
     "after_hours_flow_summary": "",
     "office_hours_flow_summary": "",
     "questions_or_unknowns": [
-        "office_address missing",
-        "business_hours missing"
+        "office_address missing"
     ],
-    "notes": "Generated from demo transcript"
+    "notes": "Generated from transcript"
 }

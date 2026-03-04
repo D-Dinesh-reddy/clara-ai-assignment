@@ -1,8 +1,38 @@
 {
-    "values_changed": {
-        "root['office_address']": {
-            "new_value": "245 Main Street Dallas Texas",
-            "old_value": ""
+    "business_hours": {
+        "old": {
+            "days": [],
+            "start": "",
+            "end": "",
+            "timezone": ""
+        },
+        "new": {
+            "days": [],
+            "start": "08:00",
+            "end": "17:00",
+            "timezone": ""
         }
+    },
+    "services_supported": {
+        "old": [
+            "electrical renovation work",
+            "EV charger installation",
+            "commercial electrical work",
+            "panel upgrades",
+            "electrical troubleshooting",
+            "hot tub electrical hookup",
+            "electrical repairs"
+        ],
+        "new": [
+            "electrical repairs"
+        ]
+    },
+    "questions_or_unknowns": {
+        "old": [
+            "business_hours missing"
+        ],
+        "new": [
+            "office_address missing"
+        ]
     }
 }

@@ -1,4 +1,4 @@
-agent_name: Unknown Company Assistant
+agent_name: Ben's Electric Solutions Assistant
 call_transfer_protocol:
   action: transfer call to dispatch
   retry_attempts: 1
@@ -12,7 +12,7 @@ fallback_protocol:
     up shortly.
 system_prompt: '
 
-  You are a professional AI receptionist for Unknown Company.
+  You are a professional AI receptionist for Ben''s Electric Solutions.
 
 
   BUSINESS HOURS FLOW:
@@ -55,15 +55,10 @@ system_prompt: '
   '
 variables:
   business_hours:
-    days:
-    - Mon
-    - Tue
-    - Wed
-    - Thu
-    - Fri
-    end: '17:00'
-    start: 09:00
+    days: []
+    end: ''
+    start: ''
     timezone: ''
-  office_address: ''
+  office_address: Calgary, Alberta, Canada
 version: v1
 voice_style: professional
