@@ -1,0 +1,35 @@
+{
+  "workflow_name": "Clara AI Automation Pipeline",
+  "description": "Demo Call -> Memo Extraction -> Agent Generation -> Onboarding Update -> Versioning",
+  "steps": [
+    {
+      "step": 1,
+      "name": "Transcript Ingestion",
+      "input": "transcripts/*.txt",
+      "output": "raw transcript text"
+    },
+    {
+      "step": 2,
+      "name": "Account Memo Extraction",
+      "script": "scripts/extract_data.py",
+      "output": "outputs/accounts/<account_id>/v1/memo.json"
+    },
+    {
+      "step": 3,
+      "name": "Agent Draft Generation",
+      "script": "scripts/generate_agent.py",
+      "output": "outputs/accounts/<account_id>/v1/agent.yaml"
+    },
+    {
+      "step": 4,
+      "name": "Onboarding Update",
+      "script": "scripts/update_agent.py",
+      "output": "outputs/accounts/<account_id>/v2/memo.json"
+    },
+    {
+      "step": 5,
+      "name": "Changelog Generation",
+      "output": "changelog/account_<id>_changes.json"
+    }
+  ]
+}
